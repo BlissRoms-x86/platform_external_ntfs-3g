@@ -1012,7 +1012,7 @@ nodata :
 	stbuf->st_mtimensec = ts.tv_nsec;
 	}
 #else
-#warning "No known way to set nanoseconds in struct stat !"
+//#warning "No known way to set nanoseconds in struct stat !"
 	{
 	struct timespec ts;
 
